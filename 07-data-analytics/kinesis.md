@@ -13,7 +13,7 @@
 - Kineses Data Streams are using shards to stream data, initially there is one shard, additional shards can be added over time to increase performance
 - Each shard provides its own performance, each shard has 1MB/s ingestion capacity, 2MB/s consumption capacity
 - Shards directly affect the price of the Kinesis stream, we have to pay for each shard
-- Pricing is also affected by the length of the storage window. By default is 24H, it can be increased to 7days
+- Pricing is also affected by the length of the storage window. By default is 24H, it can be increased to 365days
 - Data is stored in Kinesis Data Records (1MB), these records are distributed across shards
 
 ## SQS vs Kinesis Data Streams
